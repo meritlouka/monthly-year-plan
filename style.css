@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+html,
+body {
+  height: 100%
+}
+body{
+    background-color: hsl(240, 78%, 98%); 
+    color: hsl(232, 13%, 33%);
+    font-weight:  700;
+}
+.card{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.botton{
+    padding: 10px;
+    color:  hsl(237, 63%, 64%);
+    border: .5px solid  hsl(237, 63%, 64%);
+    border-radius: 10px;
+}
+.vcontainer{
+    margin: auto;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.table-container{
+    width:90%;
+}
+
+.active{
+
+    color: white;
+    background-image: linear-gradient( hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+}
+.active tr {
+    color: white;
+}
+.active-btn{
+    padding: 10px;
+    color: white;
+    border: .5px solid  white;
+    border-radius: 10px;
+}
