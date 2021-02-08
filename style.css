@@ -16,8 +16,9 @@ body{
 
 .botton{
     padding: 10px;
-    color:  hsl(237, 63%, 64%);
+    color:  white;
     border: .5px solid  hsl(237, 63%, 64%);
+    background-image: linear-gradient( to right, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
     border-radius: 10px;
 }
 .vcontainer{
@@ -33,9 +34,10 @@ body{
 }
 
 .active{
-
     color: white;
-    background-image: linear-gradient( hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background-image: linear-gradient( to right, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
 }
 .active tr {
     color: white;
