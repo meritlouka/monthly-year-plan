@@ -13,7 +13,20 @@ body{
     align-items: center;
     text-align: center;
 }
-
+.text-align-center{
+   text-align: center; 
+}
+.toggle{
+    border-radius: 20rem;
+    border-color:   hsl(236, 72%, 79%);
+    background-image: linear-gradient( to right, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+}
+.toggle-group label{
+    background-image: linear-gradient( to right, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+}
+.btn-section{
+    margin-bottom: 30px;
+}
 .botton{
     padding: 10px;
     color:  white;
