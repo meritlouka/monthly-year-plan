@@ -46,3 +46,7 @@ body{
     border: .5px solid  white;
     border-radius: 10px;
 }
+.page-row{
+    width:80%;
+    margin: auto;
+}
