@@ -9,7 +9,7 @@ body{
     font-weight:  700;
 }
 .card{
-    padding: 20px;
+    padding: 30px;
     align-items: center;
     text-align: center;
 }
@@ -44,7 +44,8 @@ body{
 }
 .active-btn{
     padding: 10px;
-    color: white;
+    color: hsl(237, 63%, 64%);
+    background-color:white;
     border: .5px solid  white;
     border-radius: 10px;
 }
